@@ -27,7 +27,7 @@ main {
 .box-title--btn{
     display: flex;
     align-items: center;
-    margin-left: -1090px;
+    margin-left: auto,
 }
 .box-title--btn a{
     margin-left: 6px;
@@ -59,4 +59,43 @@ main {
 .description-casa{
     display: flex;
     margin-right: 10px;
+}
+.logo-container {
+    padding: 0;
+    margin: 0;
+    text-align: left; 
+    margin-bottom: 20px;
+}
+
+.logo {
+    padding: 10px;
+    margin: auto;
+    width: 150px; 
+    height: auto;
+}
+.block {
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    float: right; 
+}
+
+.group-blocks {
+    width: 100%;
+    min-width: 250px;
+}
+
+.block-a {
+    height: 400px;
+    margin-bottom: 10px;
+    background: transparent;
+    width: 280px;
+}
+.block-b{
+    height: 40px;
+    margin-top: 25px;
+    width: 230px;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
